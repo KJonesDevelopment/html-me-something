@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/style2.css">
+    <script src= "script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Over+the+Rainbow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Condensed" rel="stylesheet">
+    <title>HELLO WORLD</title>
+</head>
+<body>
+<!-- header with navigation buttons -->
+    <header>
+        <button type="button" class="subHeader" id="projects" onclick="window.location.href='index.html#projectsParagraph';">
+            Projects
+            </button> 
+        <button type="button" id="introButton" onclick="window.location.href='index.html';">
+            KATHRYN JONES
+        </button> 
+        <button type="button" class="subHeader" id="resume" onclick="window.location.href='index.html#resumeSection';">
+            Resume
+        </button> 
+    </header>
+<!-- input areas for contact form with submit (send) -->
+    <div class="containOne backOne">
+        <div class="tea">
+            <p> May I buy you a tea? </p>
+        </div>
+        <div class="formOne">
+            <textarea rows="7" cols="100" placeholder="I'd love a tea....." class="textareaOne"></textarea>
+        </div>
+        <div class="formOne">
+            <textarea rows="1" cols="100" placeholder="Sincerely," class="textareaOne"></textarea>
+        </div>
+        <div>
+            <button type="button" id="teaInput" onclick="contactInfo()"> 
+                Send 
+            </button>
+        </div>
+    </div>
+<!-- footer with direct contact information -->
+    <div class="containTwo">
+        <address style="line-height: 200%">
+            <a href="mailto:kd.jones728@gmail.com" class="contactInfo">Email Directly</a><br>
+            <a href="tel:+13144205693" class="contactInfo">Or Call<br>314-420-5693</a>
+        </address>
+    </div>
+</body>
+</html>

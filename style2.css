@@ -1,0 +1,175 @@
+/* overall page settings */
+html, body{
+    font-family: "muli", sans-serif;
+    margin:0;
+    height: 100%;
+    outline-color: rgb(99, 107, 85);
+}
+
+/* header setting with internal grid set-up */
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    min-height: 60px;
+    max-height: 20%;
+    background-color: whitesmoke;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-areas: 
+    "projects introButton introButton introButton resume";
+}
+
+/* grid assignments (kept seperate for clarity purposes) */
+#projects {
+    grid-area: projects;
+}
+
+#resume {
+    grid-area: resume;
+}
+
+#introButton {
+    grid-area: introButton; 
+}
+
+/* Name button - functions as home button */
+#introButton:hover {
+    letter-spacing: 10px;
+    color:  rgb(77, 83, 67);
+    font-weight: bold;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+#introButton {
+    border: none;
+    background-color: transparent;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(99, 107, 85);
+    font-size: 170%;
+    width: 100%;
+    height: 60px;
+    letter-spacing: 5px;
+    transition-duration: 150ms;
+    outline-color: rgb(99, 107, 85);
+}
+
+/* Nav bar buttons */
+.subHeader:hover {
+    letter-spacing: 5px;
+    color:  rgb(77, 83, 67);
+    font-weight: bold;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.subHeader {
+    border: none;
+    background-color: transparent;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(99, 107, 85);
+    font-size: 80%;
+    width: 100%;
+    height: 60px;
+    letter-spacing: 3px;
+    transition-duration: 150ms;
+    font-variant: small-caps;
+    outline-color: rgb(99, 107, 85);
+}
+
+/* background photo */
+.backOne {
+    background-image: url("https://cdn.pixabay.com/photo/2017/05/30/12/21/green-tea-2356770__480.jpg");
+    position: fixed;
+    opacity: 0.70;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    min-width: 100%;
+}
+
+/* containers for content */
+.containOne {
+    text-align: center;    
+    text-align: justify;
+    margin-top: 60px; 
+    min-height: 60%;
+    padding-left: 1%;
+}
+
+/* May I buy you a tea? */
+.tea {
+    background-color: transparent;
+    color: rgb(54, 58, 47);
+    font-family: "Over the Rainbow", cursive;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+/* text area outlines */
+.textareaOne {
+    border: none;
+    background-color: transparent;
+    width: 60%;
+    padding-left: 10px;
+    font-size: 160%;
+    outline-color: whitesmoke;
+    font-family: "Saira Condensed", sans-serif;
+}
+
+.textareaOne:hover {
+    cursor: pointer;
+    background-color: rgba(245, 245, 245, .6);
+}
+
+/* submit button for tea input */
+#teaInput {
+    background-color: transparent;
+    border: none;
+    font-family: "Over the Rainbow", sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 5px 15px 5px 10px;
+    outline-color: rgb(99, 107, 85);
+    color:rgba(54, 58, 47, .8);
+}
+
+#teaInput:hover {
+    background-color: rgba(245, 245, 245, .6);
+    cursor: pointer;
+    border: none;
+    outline-color: rgb(99, 107, 85);
+}
+
+/* E-mail or call directly footer */
+.containTwo {
+    background-color: rgb(99, 107, 85);
+    color: whitesmoke;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+    text-align: center; 
+}
+
+.contactInfo {
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 130%;
+    font-style: normal;
+    font-variant: small-caps;   
+    letter-spacing: 6px; 
+}
+
