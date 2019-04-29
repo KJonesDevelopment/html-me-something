@@ -108,17 +108,17 @@ header:hover {
 
 /* background photos */
 .backOne {
-    background-image: url("https://cdn.pixabay.com/photo/2016/11/06/05/36/landscape-1802337__480.jpg");
+    background-image: url("/pictures/LakeImage.jpg");
     min-height: 100%
 }
 
 .backTwo {
-    background-image: url("https://cdn.pixabay.com/photo/2018/01/21/19/57/tree-3097419__480.jpg");
+    background-image: url("pictures/TreeImage.jpg");
     min-height: 100%;
 }
 
 .backThree {
-    background-image: url("https://cdn.pixabay.com/photo/2014/09/07/22/17/forest-438432__480.jpg");
+    background-image: url("/pictures/ForestPath.jpg");
     min-height: 100%;
 }
 
