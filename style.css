@@ -108,17 +108,17 @@ header:hover {
 
 /* background photos */
 .backOne {
-    background-image: url("/pictures/LakeImage.jpg");
+    background-image: url("./pictures/LakeImage.jpg");
     min-height: 100%
 }
 
 .backTwo {
-    background-image: url("pictures/TreeImage.jpg");
+    background-image: url("./pictures/TreeImage.jpg");
     min-height: 100%;
 }
 
 .backThree {
-    background-image: url("/pictures/ForestPath.jpg");
+    background-image: url("./pictures/ForestPath.jpg");
     min-height: 100%;
 }
 
